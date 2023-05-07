@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #c1dff3;
+  color: #2d3748;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+p {
+  font-size: 1.125rem;
+  margin-bottom: 1.5rem;
+}
+
+section {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 1.125rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+input,
+textarea {
+  font-size: 1.125rem;
+  padding: 0.5rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.25rem;
+  margin-bottom: 1.5rem;
+}
+
+button {
+  font-size: 1.125rem;
+  font-weight: 700;
+  padding: 0.5rem 1rem;
+  background-color: #4299e1;
+  color: #fff;
+  border: none;
+  border-radius: 0.25rem;
+  transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: #2b6cb0;
+  cursor: pointer;
+}
+
+label[for="message"] {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#message {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: vertical;
+  margin-bottom: 15px;
+}
+
+.additional-info {
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 0.875rem;
+}
+
+.additional-info p {
+  margin-bottom: 0.5rem;
+}
+
+.additional-info a {
+  color: #6366F1;
+}

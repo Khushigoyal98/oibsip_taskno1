@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(172, 208, 240);
+}
+
+header {
+  background-color: rgb(169, 207, 240);
+  border-bottom: 1px solid #e2e8f0;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.container {
+  max-width: 80rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #1a202c;
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+}
+
+nav a {
+  font-size: 1rem;
+  color: #4a5568;
+  margin-left: 1.5rem;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+  color: #1a202c;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9fafb;
+  padding: 3rem 0;
+}
+
+.content {
+  max-width: 40rem;
+  padding: 0 1rem;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: #1a202c;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #4a5568;
+  margin-bottom: 2rem;
+}
+
+.image {
+  flex: 1;
+  margin: 0 1rem;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.para {
+  font-size: 18px;
+}
+
+#tit {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.mail {
+  font-size: 20px;
+}
+
+/*http://www.w3.org/2000/svg*/
+#kal {
+  font-size: 35px;
+}
+
+#con {
+  font-size: 23px;
+}
+
+#serve {
+  font-size: 70px;
+}
+
+#img {
+  size: 15px;
+}
+
+#sub {
+  background-color: rgba(7, 7, 233, 0.76);
+  color: white;
+}
+
+#gh {
+  font-size: 23px;
+}
+
+#pay {
+  font-size: 25px;
+}
+
+#payment {
+  background-color: blue;
+  color: white;
+}
